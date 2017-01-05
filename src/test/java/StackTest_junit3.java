@@ -21,9 +21,4 @@ public class StackTest_junit3 extends TestCase {
         assertFalse("it should not be empty", stack.isEmpty());
         assertEquals("size should be 1", 1, stack.size());
     }
-
-    public void testWillFail(){
-        assertFalse("it should fail", true);
-    }
-
 }
